@@ -1,11 +1,11 @@
-name: shared workflow
+name: Shared Workflow
 
 on:
- workflow_call:
+  workflow_call:
 
 jobs:
   workflow_another_repo:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-     - name: run from other repo
-       runs: echo "hit hard till you get successs"
+      - name: Run from other repo
+        run: echo "Hit hard till you get succes2s!"
