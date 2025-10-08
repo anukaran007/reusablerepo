@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run from other repo
-        run: echo "Hit hard till you get success!"
+        run: echo "Hit hard till you get succes2s!"
